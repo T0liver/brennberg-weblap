@@ -2214,3 +2214,18 @@ html {
       line-height: 30px;
     }
   }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+      display: flex;
+      justify-content: stretch;
+      padding: 5px;
+      padding-left: 20px;
+      border-bottom: 1px solid #ccc;
+  }
+  .left {
+      font-weight: bold;
+  }
